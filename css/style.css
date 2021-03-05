@@ -301,14 +301,14 @@ section .title::before{
     text-indent: 20px;
 }
 
-.list_music {
+.about  .list_music {
     padding:0;
     list-style: none;
 }
-.list_music li{
+ .about  .list_music li{
     padding:6px;
 }
-.list_music li:before {
+.about  .list_music li:before {
     padding-right:10px;
     color: #cf9d15;
     content: "\2606";
