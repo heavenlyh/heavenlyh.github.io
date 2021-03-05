@@ -85,7 +85,7 @@ $('.carousel').owlCarousel({
 
 
 });
-window.purechatApi = {
+ window.purechatApi = {
 	l: [],
 	t: [],
 	on: function() {
@@ -102,13 +102,10 @@ window.purechatApi = {
 	script.onreadystatechange = script.onload = function(e) {
 		if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
 			var w = new PCWidget({
-				c: '4490a949-0188-4986-beca-6aa9a2c7f9bd',
+				c: '5df9c30f-fafd-4912-9db7-d4bbcf2c6ed2',
 				f: true
 			});
 			done = true;
 		}
 	};
-})();
-
-
-
+})(); 
