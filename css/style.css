@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -74,6 +76,7 @@ section .title::before{
     background: #fff;
     transform: translateX(-50%);
 }
+
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -126,6 +129,7 @@ section .title::before{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -160,6 +164,8 @@ section .title::before{
 .scroll-up-btn:hover{
     filter: 90%;
 }
+
+  
 /* home section styling */
 .home{
     display: flex;
@@ -212,6 +218,7 @@ section .title::before{
     box-shadow: 0 10px 40px rgba(0,0,0,0.5);
 }
 /*Sidebar*/
+
 .sidebar .sidebar_con{
     height: 300px;
     width: 60px;
@@ -246,6 +253,13 @@ section .title::before{
     color: #fff;
     transition: all 0.3s ease;
 }
+/*search*/
+
+
+
+
+
+
 /* about section styling */
 .about{
     margin-top: 100px;
@@ -262,6 +276,7 @@ section .title::before{
     object-fit: cover;
     border-radius: 10px;
 }
+
 .about .about-content .left .item-vid{
     height: 400px;
     width: 400px;
@@ -285,6 +300,9 @@ section .title::before{
     line-height: 27px;
     text-indent: 20px;
 }
+/*Fistel*/
+
+
 /* services section styling */
 .services, .teams{
     color:#fff;
@@ -340,6 +358,7 @@ section .title::before{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 /*gallery*/
 .max-width-g{
     max-width: 1450px;
@@ -373,14 +392,17 @@ div.gallery{
 
 }
 /* video section styling */
+
 .box-video{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 .video-item{
     padding: 10px;
 } 
+
 iframe{
     width: 510px;
     height: 310px;
@@ -475,7 +497,10 @@ iframe{
 .owl-loading{
     display:block;
 }
+
+
 /* contact section styling */
+
 .contact .title::after{
     content: "з нами";
 }
@@ -583,6 +608,8 @@ iframe{
     color: #cf9d15;
     background: none;
 }
+
+
 /* footer section styling */
 footer{
     background: #111;
@@ -607,18 +634,23 @@ footer  a:hover{
     font-size: 12px;
     color: #fff;
 }
+
+
 /* responsive media query start */
 @media  (max-width: 1300px) {
     .home .max-width,.max-width-g {
         margin-left: 0px;
     }
 }
+
 @media  (max-width: 1104px) {
     .about .about-content .left img, .gallery img{
         height: 350px;
         width: 350px;
     }
+
 }
+
 @media  (max-width: 991px) {
     .max-width, .max-width-g{
         padding: 0 50px;
@@ -696,9 +728,6 @@ footer  a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-     .img-item>img {
-        filter: grayscale(0%);
-    }
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -706,6 +735,9 @@ footer  a:hover{
      .column, .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    }
+     .img-item img {
+    filter: grayscale(0%);
     }
 }
 
