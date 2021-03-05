@@ -85,7 +85,30 @@ $('.carousel').owlCarousel({
 
 
 });
-
+window.purechatApi = {
+	l: [],
+	t: [],
+	on: function() {
+		this.l.push(arguments);
+	}
+};
+(function() {
+	var done = false;
+	var script = document.createElement('script');
+	script.async = true;
+	script.type = 'text/javascript';
+	script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
+	document.getElementsByTagName('HEAD').item(0).appendChild(script);
+	script.onreadystatechange = script.onload = function(e) {
+		if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+			var w = new PCWidget({
+				c: '4490a949-0188-4986-beca-6aa9a2c7f9bd',
+				f: true
+			});
+			done = true;
+		}
+	};
+})();
 
 
 
