@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -26,9 +25,6 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-
-
-
 $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
@@ -49,17 +45,12 @@ $('.carousel').owlCarousel({
             }
         }
     });
-
-
-
     var typed = new Typed(".typing", {
         strings: [ "2014"],
         typeSpeed: 150,
         backSpeed: 100,
         loop: true
     });
-
-
     var typed = new Typed(".typing-2 ", {
         strings: [ " &#8221; Небесна Сотня  &#8221; ?"],
         typeSpeed: 150,
@@ -80,9 +71,4 @@ $('.carousel').owlCarousel({
         backSpeed: 150,
         loop: true
     });
-
-    
-
-
 });
- 
