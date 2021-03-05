@@ -300,7 +300,21 @@ section .title::before{
     line-height: 27px;
     text-indent: 20px;
 }
-/*Fistel*/
+
+.list_music {
+    padding:0;
+    list-style: none;
+}
+.list_music li{
+    padding:6px;
+}
+.list_music li:before {
+    padding-right:10px;
+    color: #cf9d15;
+    content: "\2606";
+    font-size: 20px;
+}
+
 
 
 /* services section styling */
@@ -738,6 +752,7 @@ footer  a:hover{
     }
      .img-item img {
     filter: grayscale(0%);
+
     }
 }
 
@@ -761,6 +776,7 @@ footer  a:hover{
 }
 
 @media    (max-width: 510px) {
+
     .home .home-content .text-2{
         font-size: 35px;
     }
@@ -792,6 +808,7 @@ footer  a:hover{
         width: 300px;
         height: 210px;
     }
+    
     .contact .right form .fields{
         flex-direction: column;
     }
@@ -807,6 +824,4 @@ footer  a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-
 }
-
