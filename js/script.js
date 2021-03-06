@@ -74,12 +74,7 @@ $('.carousel').owlCarousel({
         loop: true
     });
     
-    var typed = new Typed(".typingo-2", {
-        strings: [ "Небесної Сотні"],
-        typeSpeed: 150,
-        backSpeed: 150,
-        loop: true
-    });
+
 
 
 });
