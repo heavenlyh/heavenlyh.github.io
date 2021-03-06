@@ -67,6 +67,20 @@ $('.carousel').owlCarousel({
         loop: true
     });
 
+    var typed = new Typed(".typingo ", {
+        strings: [ " &#8221; Небесна Сотня  &#8221; ?"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+    
+    var typed = new Typed(".typingo-2 ", {
+        strings: [ " &#8221; Небесна Сотня  &#8221; ?"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+
 
 });
 
