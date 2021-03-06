@@ -72,3 +72,9 @@ $('.carousel').owlCarousel({
         loop: true
     });
 });
+
+func handleLikes(w http.ResponseWriter, r *http.Request) {
+    // Do something meaningful with the request here...
+
+    // Return the HTTP status number 204.
+    w.WriteHeader(http.StatusNoContent)
