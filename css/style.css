@@ -678,6 +678,10 @@ footer  a:hover{
     .about{
     margin-top: 0;
     }
+     .img-item img {
+    filter: grayscale(0%);
+
+    }
 }
 @media  (max-width: 947px){
     .menu-btn{
@@ -750,10 +754,7 @@ footer  a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-     .img-item img {
-    filter: grayscale(0%);
-
-    }
+    
 }
 
 @media (max-width: 690px) {
