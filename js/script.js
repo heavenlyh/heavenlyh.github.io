@@ -70,7 +70,7 @@ $('.carousel').owlCarousel({
     var typed = new Typed(".typingo", {
         strings: [ "Небесної Сотні"],
         typeSpeed: 150,
-        backSpeed: 100,
+        backSpeed: 150,
         loop: true
     });
 
