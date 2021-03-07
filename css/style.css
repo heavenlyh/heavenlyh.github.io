@@ -277,13 +277,6 @@ section .title::before{
     border-radius: 10px;
 }
 
-.about .about-content .left .item-vid{
-    height: 400px;
-    width: 400px;
-
-    object-fit: cover;
-    border-radius: 10px;
-}
 .about .about-content .right{
     width: 55%;
 }
@@ -789,16 +782,7 @@ footer  a:hover{
         width: 100%;
         height: auto;
     }
-    .about .about-content .item-vid {
-        margin: 5px;
-        width: 100%;
-        height: auto;
-    }
     .about .about-content .left > img {
-        width: 100%;
-        margin: 5%;
-    }
-    .about .about-content .left > .item-vid {
         width: 100%;
         margin: 5%;
     }
