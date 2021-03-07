@@ -68,7 +68,7 @@ $('.carousel').owlCarousel({
     });
 
     var typed = new Typed(".typingo", {
-        strings: [ "  Небесної Сотні ?"],
+        strings: [ "Небесної Сотні"],
         typeSpeed: 150,
         backSpeed: 150,
         loop: true
