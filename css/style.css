@@ -682,12 +682,12 @@ footer  a:hover{
         z-index: 999;
     }
     .menu_con{
-        margin: auto;
-        padding: auto;
+       margin-top: 50px;
     }
     .menu-btn i.active:before{
         content: "\f00d";
     }
+
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -695,7 +695,8 @@ footer  a:hover{
         left: -100%;
         top: 0;
         background: #111;
-        text-align: center;        
+        text-align: center;  
+        padding:25% 0 ; 
         transition: all 0.3s ease;
     }
     .mune_box{
@@ -704,7 +705,6 @@ footer  a:hover{
     }
     .navbar .menu.active{
         left: 0;
-        padding-top: 25%; 
     }
     .navbar .menu li{
         display: block;
