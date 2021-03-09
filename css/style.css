@@ -184,6 +184,7 @@ section .title::before{
 .home .home-content .text-1{
     font-size: 27px;
 }
+
 .home .home-content .text-2{
     font-size: 4em;
     font-weight: 600;
@@ -253,10 +254,6 @@ section .title::before{
     color: #fff;
     transition: all 0.3s ease;
 }
-/*search*/
-
-
-
 
 
 
@@ -398,6 +395,70 @@ div.gallery{
     filter: grayscale(0%);
 
 }
+/*timeline*/
+
+.container {
+     padding: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+.container h3{
+    text-transform: uppercase;
+}
+.container h3 span{
+    font-size: 25px;
+}
+ .timeline {
+     position: relative;
+     overflow: auto;
+}
+ .timeline:before {
+     content: '';
+     position: absolute;
+     height: 100%;
+     width: 5px;
+     border-radius: 100px;
+     background: #cf9d15;
+     left: 0;
+}
+ .timeline h2 {
+     background: #cf9d15;
+     color: #fff;
+     max-width: 6em;
+     margin: 0 auto 1em;
+     padding: 0.5em;
+     text-align: center;
+     border-radius: 10px;
+     position: relative;
+     clear: both;
+}
+ .timeline ul {
+     list-style: none;
+     margin-right: 10px; 
+     padding: 0 0 0 1em;
+     z-index: 1;
+}
+ .timeline li {
+     background: #cf9d15;
+     color: #fff;
+     padding: 1em;
+     margin-bottom: 1em;
+     text-indent: 10px;
+     position: relative;
+}
+ .timeline li:before {
+     content: '';
+     width: 0;
+     height: 0;
+     border-top: 1em solid #cf9d15;
+     border-left: 1em solid transparent;
+     position: absolute;
+     left: -1em;
+     top: 0;
+}
+ .timeline h3 {
+     margin-top: 0;
+}
+
 /* video section styling */
 
 .box-video{
@@ -766,6 +827,9 @@ footer  a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+     .timeline li:before {
+     display: none;
+    }
 
 }
 
@@ -811,4 +875,42 @@ footer  a:hover{
     }
 
 }
+
+/*min-wigth*/
+ @media screen and (min-width: 690px) {
+     .container {
+         max-width: 100%;
+         margin: 0 auto;
+    }
+     .timeline:before {
+         left: 50%;
+    }
+     .timeline ul {
+         padding-left: 0;
+         max-width: 100%;
+         margin: 0 auto;
+    }
+     .timeline li {
+         width: 42%;
+    }
+     .timeline li:nth-child(even) {
+         float: right;
+         margin-top: 36px;
+    }
+     .timeline li:nth-child(odd) {
+         float: left;
+    }
+     .timeline li:nth-child(odd):before {
+
+         border-right: 1em solid transparent;
+         right: -1em;
+         left: auto;
+    }
+     .timeline li:nth-of-type(2n+1) {
+         clear: both;
+    }
+}
+ 
+
+
 
